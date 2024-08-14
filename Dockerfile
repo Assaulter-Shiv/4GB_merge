@@ -1,5 +1,6 @@
 FROM ubuntu:24.04
 
+EXPOSE 80
 WORKDIR /usr/src/mergebot
 RUN chmod 777 /usr/src/mergebot
 
